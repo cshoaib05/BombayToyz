@@ -1,0 +1,520 @@
+{
+  "1989-crest-football": {
+    "source": "1989-crest-football.jpg",
+    "width": 1432,
+    "height": 1766,
+    "originalKB": 326,
+    "optimizedKB": 65
+  },
+  "3pc-gradient-sports-bottle-set": {
+    "source": "3pc-gradient-sports-bottle-set.png",
+    "width": 6152,
+    "height": 5833,
+    "originalKB": 31989,
+    "optimizedKB": 102
+  },
+  "900ml-gradient-sports-bottle": {
+    "source": "900ml-gradient-sports-bottle.jpg",
+    "width": 992,
+    "height": 1040,
+    "originalKB": 104,
+    "optimizedKB": 30
+  },
+  "900ml-gradient-time-marker-bottle": {
+    "source": "900ml-gradient-time-marker-bottle.jpeg",
+    "width": 800,
+    "height": 800,
+    "originalKB": 215,
+    "optimizedKB": 212
+  },
+  "900ml-time-marker-sports-bottle": {
+    "source": "900ml-time-marker-sports-bottle.jpg",
+    "width": 1056,
+    "height": 976,
+    "originalKB": 252,
+    "optimizedKB": 117
+  },
+  "alphabet-print-football": {
+    "source": "alphabet-print-football.jpg",
+    "width": 944,
+    "height": 1088,
+    "originalKB": 166,
+    "optimizedKB": 72
+  },
+  "animal-character-bottle": {
+    "source": "animal-character-bottle.jpeg",
+    "width": 1024,
+    "height": 1024,
+    "originalKB": 483,
+    "optimizedKB": 34
+  },
+  "animal-fidget-spinner-bands": {
+    "source": "animal-fidget-spinner-bands.jpg",
+    "width": 2048,
+    "height": 2060,
+    "originalKB": 265,
+    "optimizedKB": 122
+  },
+  "beer-pint-tumbler": {
+    "source": "beer-pint-tumbler.jfif",
+    "width": 768,
+    "height": 1024,
+    "originalKB": 136,
+    "optimizedKB": 61
+  },
+  "brushed-steel-bottle": {
+    "source": "brushed-steel-bottle.jpeg",
+    "width": 2048,
+    "height": 2728,
+    "originalKB": 161,
+    "optimizedKB": 49
+  },
+  "cartoon-camera-keychain": {
+    "source": "cartoon-camera-keychain.jpg",
+    "width": 2048,
+    "height": 2068,
+    "originalKB": 311,
+    "optimizedKB": 140
+  },
+  "childrens-video-walkie-talkie": {
+    "source": "childrens-video-walkie-talkie.jpg",
+    "width": 1232,
+    "height": 832,
+    "originalKB": 152,
+    "optimizedKB": 53
+  },
+  "collapsible-silicone-bottle": {
+    "source": "collapsible-silicone-bottle.jpg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 123,
+    "optimizedKB": 40
+  },
+  "contact-grill-sandwich-maker": {
+    "source": "contact-grill-sandwich-maker.png",
+    "width": 1254,
+    "height": 1254,
+    "originalKB": 2218,
+    "optimizedKB": 170
+  },
+  "cordless-coffee-bean-grinder": {
+    "source": "cordless-coffee-bean-grinder.png",
+    "width": 1254,
+    "height": 1254,
+    "originalKB": 2247,
+    "optimizedKB": 143
+  },
+  "cordless-stick-vacuum-15000pa": {
+    "source": "cordless-stick-vacuum-15000pa.jpeg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 302,
+    "optimizedKB": 139
+  },
+  "davidoff-instant-coffee": {
+    "source": "davidoff-instant-coffee.jpg",
+    "width": 1080,
+    "height": 1080,
+    "originalKB": 179,
+    "optimizedKB": 106
+  },
+  "digital-kettle-black": {
+    "source": "digital-kettle-black.jpeg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 330,
+    "optimizedKB": 163
+  },
+  "digital-kettle-cream": {
+    "source": "digital-kettle-cream.jpeg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 194,
+    "optimizedKB": 68
+  },
+  "dissolvable-paper-soap": {
+    "source": "dissolvable-paper-soap.jpg",
+    "width": 2048,
+    "height": 1712,
+    "originalKB": 166,
+    "optimizedKB": 74
+  },
+  "dsp-citrus-juicer-07l": {
+    "source": "dsp-citrus-juicer-07l.jpeg",
+    "width": 2048,
+    "height": 1532,
+    "originalKB": 138,
+    "optimizedKB": 58
+  },
+  "dsp-food-chopper-4l": {
+    "source": "dsp-food-chopper-4l.jpeg",
+    "width": 2048,
+    "height": 1520,
+    "originalKB": 235,
+    "optimizedKB": 101
+  },
+  "dsp-heart-waffle-1000w": {
+    "source": "dsp-heart-waffle-1000w.jpeg",
+    "width": 2048,
+    "height": 1560,
+    "originalKB": 217,
+    "optimizedKB": 103
+  },
+  "dsp-round-waffle-1000w": {
+    "source": "dsp-round-waffle-1000w.jpeg",
+    "width": 2048,
+    "height": 1548,
+    "originalKB": 190,
+    "optimizedKB": 87
+  },
+  "dsp-vegetable-chopper-400w": {
+    "source": "dsp-vegetable-chopper-400w.jpeg",
+    "width": 2048,
+    "height": 1508,
+    "originalKB": 183,
+    "optimizedKB": 68
+  },
+  "glossy-graphic-football": {
+    "source": "glossy-graphic-football.jpeg",
+    "width": 2048,
+    "height": 1480,
+    "originalKB": 201,
+    "optimizedKB": 88
+  },
+  "handled-travel-tumbler": {
+    "source": "handled-travel-tumbler.jpg",
+    "width": 912,
+    "height": 1091,
+    "originalKB": 173,
+    "optimizedKB": 65
+  },
+  "hot-cold-vacuum-bottle": {
+    "source": "hot-cold-vacuum-bottle.jpeg",
+    "width": 2048,
+    "height": 2144,
+    "originalKB": 176,
+    "optimizedKB": 68
+  },
+  "insulated-food-container": {
+    "source": "insulated-food-container.jpeg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 131,
+    "optimizedKB": 40
+  },
+  "kids-instant-print-camera": {
+    "source": "kids-instant-print-camera.jpg",
+    "width": 2048,
+    "height": 2904,
+    "originalKB": 459,
+    "optimizedKB": 203
+  },
+  "led-novelty-glasses": {
+    "source": "led-novelty-glasses.jpeg",
+    "width": 2048,
+    "height": 1324,
+    "originalKB": 187,
+    "optimizedKB": 71
+  },
+  "lumabella-frying-pan-1500w": {
+    "source": "lumabella-frying-pan-1500w.jpeg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 242,
+    "optimizedKB": 108
+  },
+  "lumabella-sandwich-set-1000w": {
+    "source": "lumabella-sandwich-set-1000w.jpeg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 305,
+    "optimizedKB": 141
+  },
+  "lumabella-upright-vacuum-2000w": {
+    "source": "lumabella-upright-vacuum-2000w.jpeg",
+    "width": 2048,
+    "height": 1872,
+    "originalKB": 317,
+    "optimizedKB": 176
+  },
+  "magic-practice-copybook": {
+    "source": "magic-practice-copybook.jpeg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 259,
+    "optimizedKB": 88
+  },
+  "matte-insulated-handle-bottle": {
+    "source": "matte-insulated-handle-bottle.jpg",
+    "width": 1024,
+    "height": 1024,
+    "originalKB": 100,
+    "optimizedKB": 29
+  },
+  "mini-bullet-steel-bottle": {
+    "source": "mini-bullet-steel-bottle.jpg",
+    "width": 1080,
+    "height": 849,
+    "originalKB": 86,
+    "optimizedKB": 28
+  },
+  "motion-sensing-racing-game": {
+    "source": "motion-sensing-racing-game.jpeg",
+    "width": 2048,
+    "height": 1404,
+    "originalKB": 242,
+    "optimizedKB": 105
+  },
+  "nice-400ml-sip-tumbler": {
+    "source": "nice-400ml-sip-tumbler.jpg",
+    "width": 976,
+    "height": 1056,
+    "originalKB": 180,
+    "optimizedKB": 63
+  },
+  "owala-flip-straw-bottle": {
+    "source": "owala-flip-straw-bottle.jfif",
+    "width": 1280,
+    "height": 816,
+    "originalKB": 674,
+    "optimizedKB": 66
+  },
+  "plush-cat-crossbody-bag": {
+    "source": "plush-cat-crossbody-bag.jpg",
+    "width": 2640,
+    "height": 2214,
+    "originalKB": 1048,
+    "optimizedKB": 87
+  },
+  "pony-slot-machine-keychains": {
+    "source": "pony-slot-machine-keychains.jpg",
+    "width": 1104,
+    "height": 875,
+    "originalKB": 219,
+    "optimizedKB": 94
+  },
+  "pop-it-fidget-set": {
+    "source": "pop-it-fidget-set.jpg",
+    "width": 2048,
+    "height": 2040,
+    "originalKB": 300,
+    "optimizedKB": 103
+  },
+  "portable-blender-juicer": {
+    "source": "portable-blender-juicer.jpg",
+    "width": 1040,
+    "height": 992,
+    "originalKB": 191,
+    "optimizedKB": 74
+  },
+  "power-smash-badminton": {
+    "source": "power-smash-badminton.png",
+    "width": 4800,
+    "height": 3584,
+    "originalKB": 8937,
+    "optimizedKB": 35
+  },
+  "printed-floral-steel-bottle": {
+    "source": "printed-floral-steel-bottle.webp",
+    "width": 512,
+    "height": 512,
+    "originalKB": 59,
+    "optimizedKB": 62
+  },
+  "push-button-travel-mug": {
+    "source": "push-button-travel-mug.jpg",
+    "width": 2852,
+    "height": 2852,
+    "originalKB": 346,
+    "optimizedKB": 32
+  },
+  "raf-induction-cooker-3500w-a": {
+    "source": "raf-induction-cooker-3500w-a.jpeg",
+    "width": 2048,
+    "height": 2732,
+    "originalKB": 408,
+    "optimizedKB": 184
+  },
+  "raf-induction-cooker-3500w-b": {
+    "source": "raf-induction-cooker-3500w-b.jpeg",
+    "width": 2048,
+    "height": 2732,
+    "originalKB": 501,
+    "optimizedKB": 233
+  },
+  "retro-handheld-game-console": {
+    "source": "retro-handheld-game-console.jpeg",
+    "width": 2048,
+    "height": 2140,
+    "originalKB": 212,
+    "optimizedKB": 73
+  },
+  "sei-edt-printed-football": {
+    "source": "sei-edt-printed-football.jpg",
+    "width": 1432,
+    "height": 1210,
+    "originalKB": 474,
+    "optimizedKB": 114
+  },
+  "silhouette-print-football": {
+    "source": "silhouette-print-football.jpg",
+    "width": 2048,
+    "height": 1520,
+    "originalKB": 204,
+    "optimizedKB": 86
+  },
+  "sokany-air-fryer-6l": {
+    "source": "sokany-air-fryer-6l.jpeg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 382,
+    "optimizedKB": 180
+  },
+  "sokany-canister-vacuum-2000w": {
+    "source": "sokany-canister-vacuum-2000w.jpg",
+    "width": 1056,
+    "height": 976,
+    "originalKB": 317,
+    "optimizedKB": 166
+  },
+  "sokany-clamshell-grill-800w": {
+    "source": "sokany-clamshell-grill-800w.jpeg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 299,
+    "optimizedKB": 124
+  },
+  "sokany-contact-grill-750w": {
+    "source": "sokany-contact-grill-750w.jpg",
+    "width": 1248,
+    "height": 832,
+    "originalKB": 335,
+    "optimizedKB": 169
+  },
+  "sokany-fold-flat-grill-2100w": {
+    "source": "sokany-fold-flat-grill-2100w.jpeg",
+    "width": 2048,
+    "height": 1364,
+    "originalKB": 239,
+    "optimizedKB": 122
+  },
+  "sokany-grill-maker-1000w": {
+    "source": "sokany-grill-maker-1000w.jpg",
+    "width": 1024,
+    "height": 1024,
+    "originalKB": 206,
+    "optimizedKB": 96
+  },
+  "sokany-hand-blender-1200w": {
+    "source": "sokany-hand-blender-1200w.jpeg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 260,
+    "optimizedKB": 108
+  },
+  "sokany-rice-cooker-18l": {
+    "source": "sokany-rice-cooker-18l.jpeg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 303,
+    "optimizedKB": 132
+  },
+  "sokany-round-waffle-750w": {
+    "source": "sokany-round-waffle-750w.jpeg",
+    "width": 2048,
+    "height": 1364,
+    "originalKB": 207,
+    "optimizedKB": 94
+  },
+  "sokany-salad-machine-200w": {
+    "source": "sokany-salad-machine-200w.jpeg",
+    "width": 2048,
+    "height": 2184,
+    "originalKB": 288,
+    "optimizedKB": 129
+  },
+  "sokany-waffle-grill-1500w": {
+    "source": "sokany-waffle-grill-1500w.jpeg",
+    "width": 2048,
+    "height": 2040,
+    "originalKB": 297,
+    "optimizedKB": 128
+  },
+  "sokany-waffle-maker-800w": {
+    "source": "sokany-waffle-maker-800w.jpg",
+    "width": 1024,
+    "height": 1024,
+    "originalKB": 392,
+    "optimizedKB": 127
+  },
+  "sonifer-clothes-dryer-1000w": {
+    "source": "sonifer-clothes-dryer-1000w.jpeg",
+    "width": 2048,
+    "height": 2732,
+    "originalKB": 377,
+    "optimizedKB": 164
+  },
+  "soy-wax-scented-candle": {
+    "source": "soy-wax-scented-candle.jpg",
+    "width": 784,
+    "height": 1168,
+    "originalKB": 257,
+    "optimizedKB": 67
+  },
+  "space-cartoon-bottle": {
+    "source": "space-cartoon-bottle.jpg",
+    "width": 1024,
+    "height": 1024,
+    "originalKB": 204,
+    "optimizedKB": 93
+  },
+  "squishy-panda-night-light": {
+    "source": "squishy-panda-night-light.jpg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 154,
+    "optimizedKB": 61
+  },
+  "stanley-straw-tumbler-alt": {
+    "source": "stanley-straw-tumbler-alt.jpg",
+    "width": 880,
+    "height": 1168,
+    "originalKB": 182,
+    "optimizedKB": 67
+  },
+  "stanley-straw-tumbler": {
+    "source": "stanley-straw-tumbler.jfif",
+    "width": 1325,
+    "height": 800,
+    "originalKB": 611,
+    "optimizedKB": 47
+  },
+  "usb-ceramic-mug-warmer": {
+    "source": "usb-ceramic-mug-warmer.png",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 4120,
+    "optimizedKB": 123
+  },
+  "uv-shield-swimming-goggles": {
+    "source": "uv-shield-swimming-goggles.png",
+    "width": 1376,
+    "height": 768,
+    "originalKB": 1114,
+    "optimizedKB": 50
+  },
+  "vacuum-flask-mug-set": {
+    "source": "vacuum-flask-mug-set.png",
+    "width": 1268,
+    "height": 1241,
+    "originalKB": 2231,
+    "optimizedKB": 119
+  },
+  "wooden-desk-organiser": {
+    "source": "wooden-desk-organiser.jpg",
+    "width": 784,
+    "height": 1168,
+    "originalKB": 261,
+    "optimizedKB": 67
+  }
+}

@@ -1,0 +1,77 @@
+# ============================================
+# Bombay Toyz — Apache config for cPanel hosting
+# Copied to dist/.htaccess automatically by Vite on every build.
+# ============================================
+
+# --- 1. Force HTTPS (leave this ON once Let's Encrypt cert is active) ---
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Uncomment ONE of the two blocks below to force a single canonical domain.
+  # --- Force www ---
+  # RewriteCond %{HTTPS} !=on
+  # RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+  # RewriteCond %{HTTP_HOST} ^bombaytoyz\.com$ [NC]
+  # RewriteRule ^(.*)$ https://www.bombaytoyz.com/$1 [R=301,L]
+
+  # --- Force non-www (uncomment this and comment the block above) ---
+  # RewriteCond %{HTTPS} !=on
+  # RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+  # RewriteCond %{HTTP_HOST} ^www\.bombaytoyz\.com$ [NC]
+  # RewriteRule ^(.*)$ https://bombaytoyz.com/$1 [R=301,L]
+</IfModule>
+
+# --- 2. SPA fallback -------------------------------------------------
+# This app routes on the client (History API). Without this, refreshing
+# or sharing a URL like /products/xyz-123 returns a 404 from Apache.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Never rewrite real files or folders (JS, CSS, images) — serve them as-is.
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Everything else -> index.html and let React Router handle it.
+  RewriteRule . /index.html [L]
+</IfModule>
+
+# --- 3. Caching ------------------------------------------------------
+# Vite hashes filenames (index-abc123.js), so they can be cached forever.
+<IfModule mod_headers.c>
+  # HTML must never be cached, or users get stale asset references.
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+  </FilesMatch>
+
+  <FilesMatch "\.(js|css|woff2|woff|ttf|eot|svg|png|jpg|jpeg|webp|avif|gif|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
+
+# --- 4. Compression --------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript
+  AddOutputFilterByType DEFLATE application/javascript application/json
+  AddOutputFilterByType DEFLATE application/xml image/svg+xml
+</IfModule>
+
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/css application/javascript
+  AddOutputFilterByType BROTLI_COMPRESS application/json image/svg+xml
+</IfModule>
+
+# --- 5. Security headers --------------------------------------------
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>
+
+# --- 6. Block dotfiles and backups -----------------------------------
+<FilesMatch "^\.|\.(bak|conf|log|sql|sh|ini)$">
+  Require all denied
+</FilesMatch>
+Options -Indexes
