@@ -1,520 +1,870 @@
 {
-  "1989-crest-football": {
-    "source": "1989-crest-football.jpg",
-    "width": 1432,
-    "height": 1766,
-    "originalKB": 326,
-    "optimizedKB": 65
-  },
-  "3pc-gradient-sports-bottle-set": {
-    "source": "3pc-gradient-sports-bottle-set.png",
-    "width": 6152,
-    "height": 5833,
-    "originalKB": 31989,
-    "optimizedKB": 102
-  },
-  "900ml-gradient-sports-bottle": {
-    "source": "900ml-gradient-sports-bottle.jpg",
-    "width": 992,
-    "height": 1040,
-    "originalKB": 104,
-    "optimizedKB": 30
-  },
-  "900ml-gradient-time-marker-bottle": {
-    "source": "900ml-gradient-time-marker-bottle.jpeg",
-    "width": 800,
-    "height": 800,
-    "originalKB": 215,
-    "optimizedKB": 212
-  },
-  "900ml-time-marker-sports-bottle": {
-    "source": "900ml-time-marker-sports-bottle.jpg",
-    "width": 1056,
-    "height": 976,
-    "originalKB": 252,
-    "optimizedKB": 117
-  },
-  "alphabet-print-football": {
-    "source": "alphabet-print-football.jpg",
-    "width": 944,
-    "height": 1088,
-    "originalKB": 166,
-    "optimizedKB": 72
-  },
-  "animal-character-bottle": {
-    "source": "animal-character-bottle.jpeg",
-    "width": 1024,
-    "height": 1024,
-    "originalKB": 483,
-    "optimizedKB": 34
-  },
-  "animal-fidget-spinner-bands": {
-    "source": "animal-fidget-spinner-bands.jpg",
-    "width": 2048,
-    "height": 2060,
-    "originalKB": 265,
-    "optimizedKB": 122
-  },
-  "beer-pint-tumbler": {
-    "source": "beer-pint-tumbler.jfif",
-    "width": 768,
-    "height": 1024,
-    "originalKB": 136,
-    "optimizedKB": 61
-  },
-  "brushed-steel-bottle": {
-    "source": "brushed-steel-bottle.jpeg",
-    "width": 2048,
-    "height": 2728,
-    "originalKB": 161,
-    "optimizedKB": 49
-  },
-  "cartoon-camera-keychain": {
-    "source": "cartoon-camera-keychain.jpg",
-    "width": 2048,
-    "height": 2068,
-    "originalKB": 311,
-    "optimizedKB": 140
-  },
-  "childrens-video-walkie-talkie": {
-    "source": "childrens-video-walkie-talkie.jpg",
-    "width": 1232,
-    "height": 832,
-    "originalKB": 152,
-    "optimizedKB": 53
-  },
-  "collapsible-silicone-bottle": {
-    "source": "collapsible-silicone-bottle.jpg",
-    "width": 2048,
-    "height": 2048,
-    "originalKB": 123,
-    "optimizedKB": 40
-  },
-  "contact-grill-sandwich-maker": {
-    "source": "contact-grill-sandwich-maker.png",
-    "width": 1254,
-    "height": 1254,
-    "originalKB": 2218,
-    "optimizedKB": 170
-  },
-  "cordless-coffee-bean-grinder": {
-    "source": "cordless-coffee-bean-grinder.png",
-    "width": 1254,
-    "height": 1254,
-    "originalKB": 2247,
-    "optimizedKB": 143
-  },
-  "cordless-stick-vacuum-15000pa": {
-    "source": "cordless-stick-vacuum-15000pa.jpeg",
-    "width": 2048,
-    "height": 2048,
-    "originalKB": 302,
-    "optimizedKB": 139
-  },
-  "davidoff-instant-coffee": {
-    "source": "davidoff-instant-coffee.jpg",
-    "width": 1080,
-    "height": 1080,
-    "originalKB": 179,
-    "optimizedKB": 106
-  },
-  "digital-kettle-black": {
-    "source": "digital-kettle-black.jpeg",
-    "width": 2048,
-    "height": 2048,
-    "originalKB": 330,
-    "optimizedKB": 163
-  },
-  "digital-kettle-cream": {
-    "source": "digital-kettle-cream.jpeg",
-    "width": 2048,
-    "height": 2048,
-    "originalKB": 194,
-    "optimizedKB": 68
-  },
-  "dissolvable-paper-soap": {
-    "source": "dissolvable-paper-soap.jpg",
-    "width": 2048,
-    "height": 1712,
-    "originalKB": 166,
-    "optimizedKB": 74
-  },
-  "dsp-citrus-juicer-07l": {
-    "source": "dsp-citrus-juicer-07l.jpeg",
-    "width": 2048,
-    "height": 1532,
-    "originalKB": 138,
-    "optimizedKB": 58
-  },
-  "dsp-food-chopper-4l": {
-    "source": "dsp-food-chopper-4l.jpeg",
-    "width": 2048,
-    "height": 1520,
-    "originalKB": 235,
-    "optimizedKB": 101
-  },
-  "dsp-heart-waffle-1000w": {
-    "source": "dsp-heart-waffle-1000w.jpeg",
-    "width": 2048,
-    "height": 1560,
-    "originalKB": 217,
-    "optimizedKB": 103
-  },
-  "dsp-round-waffle-1000w": {
-    "source": "dsp-round-waffle-1000w.jpeg",
-    "width": 2048,
-    "height": 1548,
-    "originalKB": 190,
-    "optimizedKB": 87
-  },
-  "dsp-vegetable-chopper-400w": {
-    "source": "dsp-vegetable-chopper-400w.jpeg",
-    "width": 2048,
-    "height": 1508,
-    "originalKB": 183,
-    "optimizedKB": 68
-  },
-  "glossy-graphic-football": {
-    "source": "glossy-graphic-football.jpeg",
-    "width": 2048,
-    "height": 1480,
-    "originalKB": 201,
-    "optimizedKB": 88
-  },
-  "handled-travel-tumbler": {
-    "source": "handled-travel-tumbler.jpg",
-    "width": 912,
-    "height": 1091,
-    "originalKB": 173,
-    "optimizedKB": 65
-  },
-  "hot-cold-vacuum-bottle": {
-    "source": "hot-cold-vacuum-bottle.jpeg",
-    "width": 2048,
-    "height": 2144,
-    "originalKB": 176,
-    "optimizedKB": 68
-  },
-  "insulated-food-container": {
-    "source": "insulated-food-container.jpeg",
-    "width": 2048,
-    "height": 2048,
-    "originalKB": 131,
-    "optimizedKB": 40
-  },
-  "kids-instant-print-camera": {
-    "source": "kids-instant-print-camera.jpg",
-    "width": 2048,
-    "height": 2904,
-    "originalKB": 459,
-    "optimizedKB": 203
-  },
-  "led-novelty-glasses": {
-    "source": "led-novelty-glasses.jpeg",
-    "width": 2048,
-    "height": 1324,
-    "originalKB": 187,
-    "optimizedKB": 71
-  },
-  "lumabella-frying-pan-1500w": {
-    "source": "lumabella-frying-pan-1500w.jpeg",
-    "width": 2048,
-    "height": 2048,
-    "originalKB": 242,
-    "optimizedKB": 108
-  },
-  "lumabella-sandwich-set-1000w": {
-    "source": "lumabella-sandwich-set-1000w.jpeg",
-    "width": 2048,
-    "height": 2048,
-    "originalKB": 305,
-    "optimizedKB": 141
-  },
-  "lumabella-upright-vacuum-2000w": {
-    "source": "lumabella-upright-vacuum-2000w.jpeg",
-    "width": 2048,
-    "height": 1872,
-    "originalKB": 317,
-    "optimizedKB": 176
-  },
-  "magic-practice-copybook": {
-    "source": "magic-practice-copybook.jpeg",
-    "width": 2048,
-    "height": 2048,
-    "originalKB": 259,
-    "optimizedKB": 88
-  },
-  "matte-insulated-handle-bottle": {
-    "source": "matte-insulated-handle-bottle.jpg",
-    "width": 1024,
-    "height": 1024,
-    "originalKB": 100,
-    "optimizedKB": 29
-  },
-  "mini-bullet-steel-bottle": {
-    "source": "mini-bullet-steel-bottle.jpg",
+  "bottles-300ml-mini-bottles": {
+    "source": "bottles\\300ml_Mini_Bottles.jpg",
     "width": 1080,
     "height": 849,
-    "originalKB": 86,
-    "optimizedKB": 28
+    "originalKB": 170,
+    "optimizedKB": 30
   },
-  "motion-sensing-racing-game": {
-    "source": "motion-sensing-racing-game.jpeg",
-    "width": 2048,
-    "height": 1404,
-    "originalKB": 242,
-    "optimizedKB": 105
-  },
-  "nice-400ml-sip-tumbler": {
-    "source": "nice-400ml-sip-tumbler.jpg",
-    "width": 976,
-    "height": 1056,
-    "originalKB": 180,
-    "optimizedKB": 63
-  },
-  "owala-flip-straw-bottle": {
-    "source": "owala-flip-straw-bottle.jfif",
-    "width": 1280,
-    "height": 816,
-    "originalKB": 674,
-    "optimizedKB": 66
-  },
-  "plush-cat-crossbody-bag": {
-    "source": "plush-cat-crossbody-bag.jpg",
-    "width": 2640,
-    "height": 2214,
-    "originalKB": 1048,
-    "optimizedKB": 87
-  },
-  "pony-slot-machine-keychains": {
-    "source": "pony-slot-machine-keychains.jpg",
-    "width": 1104,
-    "height": 875,
-    "originalKB": 219,
-    "optimizedKB": 94
-  },
-  "pop-it-fidget-set": {
-    "source": "pop-it-fidget-set.jpg",
-    "width": 2048,
-    "height": 2040,
-    "originalKB": 300,
-    "optimizedKB": 103
-  },
-  "portable-blender-juicer": {
-    "source": "portable-blender-juicer.jpg",
-    "width": 1040,
-    "height": 992,
-    "originalKB": 191,
-    "optimizedKB": 74
-  },
-  "power-smash-badminton": {
-    "source": "power-smash-badminton.png",
-    "width": 4800,
-    "height": 3584,
-    "originalKB": 8937,
-    "optimizedKB": 35
-  },
-  "printed-floral-steel-bottle": {
-    "source": "printed-floral-steel-bottle.webp",
+  "bottles-300ml-printed": {
+    "source": "bottles\\300ml_Printed.jpg",
     "width": 512,
     "height": 512,
-    "originalKB": 59,
-    "optimizedKB": 62
+    "originalKB": 192,
+    "optimizedKB": 67
   },
-  "push-button-travel-mug": {
-    "source": "push-button-travel-mug.jpg",
-    "width": 2852,
-    "height": 2852,
-    "originalKB": 346,
+  "bottles-3pc-bottle-set": {
+    "source": "bottles\\3pc_Bottle_Set.jpg",
+    "width": 1100,
+    "height": 1043,
+    "originalKB": 199,
+    "optimizedKB": 106
+  },
+  "bottles-900ml-colour": {
+    "source": "bottles\\900ML_COLOUR.jpg",
+    "width": 992,
+    "height": 1040,
+    "originalKB": 185,
     "optimizedKB": 32
   },
-  "raf-induction-cooker-3500w-a": {
-    "source": "raf-induction-cooker-3500w-a.jpeg",
-    "width": 2048,
-    "height": 2732,
-    "originalKB": 408,
-    "optimizedKB": 184
+  "bottles-900ml-colour-2": {
+    "source": "bottles\\900ML_COLOUR_2.jpg",
+    "width": 800,
+    "height": 800,
+    "originalKB": 198,
+    "optimizedKB": 237
   },
-  "raf-induction-cooker-3500w-b": {
-    "source": "raf-induction-cooker-3500w-b.jpeg",
-    "width": 2048,
-    "height": 2732,
-    "originalKB": 501,
-    "optimizedKB": 233
-  },
-  "retro-handheld-game-console": {
-    "source": "retro-handheld-game-console.jpeg",
-    "width": 2048,
-    "height": 2140,
-    "originalKB": 212,
-    "optimizedKB": 73
-  },
-  "sei-edt-printed-football": {
-    "source": "sei-edt-printed-football.jpg",
-    "width": 1432,
-    "height": 1210,
-    "originalKB": 474,
-    "optimizedKB": 114
-  },
-  "silhouette-print-football": {
-    "source": "silhouette-print-football.jpg",
-    "width": 2048,
-    "height": 1520,
-    "originalKB": 204,
-    "optimizedKB": 86
-  },
-  "sokany-air-fryer-6l": {
-    "source": "sokany-air-fryer-6l.jpeg",
-    "width": 2048,
-    "height": 2048,
-    "originalKB": 382,
-    "optimizedKB": 180
-  },
-  "sokany-canister-vacuum-2000w": {
-    "source": "sokany-canister-vacuum-2000w.jpg",
-    "width": 1056,
-    "height": 976,
-    "originalKB": 317,
-    "optimizedKB": 166
-  },
-  "sokany-clamshell-grill-800w": {
-    "source": "sokany-clamshell-grill-800w.jpeg",
-    "width": 2048,
-    "height": 2048,
-    "originalKB": 299,
-    "optimizedKB": 124
-  },
-  "sokany-contact-grill-750w": {
-    "source": "sokany-contact-grill-750w.jpg",
-    "width": 1248,
-    "height": 832,
-    "originalKB": 335,
-    "optimizedKB": 169
-  },
-  "sokany-fold-flat-grill-2100w": {
-    "source": "sokany-fold-flat-grill-2100w.jpeg",
-    "width": 2048,
-    "height": 1364,
-    "originalKB": 239,
-    "optimizedKB": 122
-  },
-  "sokany-grill-maker-1000w": {
-    "source": "sokany-grill-maker-1000w.jpg",
+  "bottles-900ml-stainless-steel": {
+    "source": "bottles\\900ml_Stainless_Steel.jpg",
     "width": 1024,
     "height": 1024,
-    "originalKB": 206,
-    "optimizedKB": 96
+    "originalKB": 189,
+    "optimizedKB": 32
   },
-  "sokany-hand-blender-1200w": {
-    "source": "sokany-hand-blender-1200w.jpeg",
-    "width": 2048,
-    "height": 2048,
-    "originalKB": 260,
-    "optimizedKB": 108
-  },
-  "sokany-rice-cooker-18l": {
-    "source": "sokany-rice-cooker-18l.jpeg",
-    "width": 2048,
-    "height": 2048,
-    "originalKB": 303,
-    "optimizedKB": 132
-  },
-  "sokany-round-waffle-750w": {
-    "source": "sokany-round-waffle-750w.jpeg",
-    "width": 2048,
-    "height": 1364,
-    "originalKB": 207,
-    "optimizedKB": 94
-  },
-  "sokany-salad-machine-200w": {
-    "source": "sokany-salad-machine-200w.jpeg",
-    "width": 2048,
-    "height": 2184,
-    "originalKB": 288,
-    "optimizedKB": 129
-  },
-  "sokany-waffle-grill-1500w": {
-    "source": "sokany-waffle-grill-1500w.jpeg",
-    "width": 2048,
-    "height": 2040,
-    "originalKB": 297,
-    "optimizedKB": 128
-  },
-  "sokany-waffle-maker-800w": {
-    "source": "sokany-waffle-maker-800w.jpg",
+  "bottles-animal-bottle": {
+    "source": "bottles\\Animal_Bottle.jpg",
     "width": 1024,
     "height": 1024,
-    "originalKB": 392,
-    "optimizedKB": 127
+    "originalKB": 183,
+    "optimizedKB": 37
   },
-  "sonifer-clothes-dryer-1000w": {
-    "source": "sonifer-clothes-dryer-1000w.jpeg",
+  "bottles-beer-printed": {
+    "source": "bottles\\Beer_Printed.jpg",
+    "width": 768,
+    "height": 1024,
+    "originalKB": 199,
+    "optimizedKB": 64
+  },
+  "bottles-fold-bottle": {
+    "source": "bottles\\FOLD_BOTTLE.jpg",
     "width": 2048,
-    "height": 2732,
-    "originalKB": 377,
-    "optimizedKB": 164
+    "height": 2048,
+    "originalKB": 169,
+    "optimizedKB": 41
   },
-  "soy-wax-scented-candle": {
-    "source": "soy-wax-scented-candle.jpg",
-    "width": 784,
-    "height": 1168,
-    "originalKB": 257,
+  "bottles-gemini-generated-image-1ppnm1ppnm1ppnm1": {
+    "source": "bottles\\Gemini_Generated_Image_1ppnm1ppnm1ppnm1.jpg",
+    "width": 1280,
+    "height": 816,
+    "originalKB": 185,
+    "optimizedKB": 71
+  },
+  "bottles-hot-n-cold": {
+    "source": "bottles\\HOT_N_COLD.jpg",
+    "width": 1400,
+    "height": 1466,
+    "originalKB": 200,
+    "optimizedKB": 72
+  },
+  "bottles-nice-bottle": {
+    "source": "bottles\\NICE_BOTTLE.jpg",
+    "width": 976,
+    "height": 1056,
+    "originalKB": 168,
+    "optimizedKB": 68
+  },
+  "bottles-plastic-tumbler": {
+    "source": "bottles\\Plastic_Tumbler.jpg",
+    "width": 912,
+    "height": 1091,
+    "originalKB": 200,
     "optimizedKB": 67
   },
-  "space-cartoon-bottle": {
-    "source": "space-cartoon-bottle.jpg",
+  "bottles-space-900ml": {
+    "source": "bottles\\SPACE_900ML.jpg",
     "width": 1024,
     "height": 1024,
-    "originalKB": 204,
-    "optimizedKB": 93
+    "originalKB": 191,
+    "optimizedKB": 100
   },
-  "squishy-panda-night-light": {
-    "source": "squishy-panda-night-light.jpg",
-    "width": 2048,
-    "height": 2048,
-    "originalKB": 154,
-    "optimizedKB": 61
+  "bottles-steel-bottle": {
+    "source": "bottles\\STEEL_BOTTLE.jpg",
+    "width": 1600,
+    "height": 2131,
+    "originalKB": 198,
+    "optimizedKB": 52
   },
-  "stanley-straw-tumbler-alt": {
-    "source": "stanley-straw-tumbler-alt.jpg",
-    "width": 880,
-    "height": 1168,
-    "originalKB": 182,
-    "optimizedKB": 67
-  },
-  "stanley-straw-tumbler": {
-    "source": "stanley-straw-tumbler.jfif",
+  "bottles-stanley": {
+    "source": "bottles\\Stanley.jpg",
     "width": 1325,
     "height": 800,
-    "originalKB": 611,
-    "optimizedKB": 47
+    "originalKB": 196,
+    "optimizedKB": 51
   },
-  "usb-ceramic-mug-warmer": {
-    "source": "usb-ceramic-mug-warmer.png",
+  "bottles-thermosip-mug": {
+    "source": "bottles\\Thermosip_Mug.jpg",
     "width": 2048,
     "height": 2048,
-    "originalKB": 4120,
-    "optimizedKB": 123
+    "originalKB": 195,
+    "optimizedKB": 34
   },
-  "uv-shield-swimming-goggles": {
-    "source": "uv-shield-swimming-goggles.png",
-    "width": 1376,
-    "height": 768,
-    "originalKB": 1114,
-    "optimizedKB": 50
-  },
-  "vacuum-flask-mug-set": {
-    "source": "vacuum-flask-mug-set.png",
+  "bottles-vacuum-flask-set": {
+    "source": "bottles\\Vacuum_Flask_Set.jpg",
     "width": 1268,
     "height": 1241,
-    "originalKB": 2231,
-    "optimizedKB": 119
+    "originalKB": 198,
+    "optimizedKB": 135
   },
-  "wooden-desk-organiser": {
-    "source": "wooden-desk-organiser.jpg",
+  "bottles-whatsapp-image-2026-10-12-at-2-55-56-pm-1": {
+    "source": "bottles\\WhatsApp_Image_2026-10-12_at_2_55_56_PM__1_.jpg",
+    "width": 1300,
+    "height": 1336,
+    "originalKB": 193,
+    "optimizedKB": 85
+  },
+  "bottles-whatsapp-image-2026-10-12-at-2-55-56-pm-1-1": {
+    "source": "bottles\\WhatsApp_Image_2026-10-12_at_2_55_56_PM__1___1_.jpg",
+    "width": 1000,
+    "height": 1094,
+    "originalKB": 198,
+    "optimizedKB": 135
+  },
+  "bottles-whatsapp-image-2026-10-12-at-2-55-56-pm-2-1": {
+    "source": "bottles\\WhatsApp_Image_2026-10-12_at_2_55_56_PM__2___1_.jpg",
+    "width": 2048,
+    "height": 1640,
+    "originalKB": 199,
+    "optimizedKB": 70
+  },
+  "bottles-whatsapp-image-2026-10-12-at-2-55-58-pm-1": {
+    "source": "bottles\\WhatsApp_Image_2026-10-12_at_2_55_58_PM__1_.jpg",
+    "width": 1200,
+    "height": 1200,
+    "originalKB": 198,
+    "optimizedKB": 136
+  },
+  "bottles-whatsapp-image-2026-10-12-at-2-55-58-pm-1-1": {
+    "source": "bottles\\WhatsApp_Image_2026-10-12_at_2_55_58_PM__1___1_.jpg",
+    "width": 1400,
+    "height": 968,
+    "originalKB": 198,
+    "optimizedKB": 86
+  },
+  "bottles-fukud": {
+    "source": "bottles\\fukuD.jpg",
+    "width": 864,
+    "height": 1152,
+    "originalKB": 194,
+    "optimizedKB": 76
+  },
+  "bottles-r3apt": {
+    "source": "bottles\\r3APt.jpg",
+    "width": 1120,
+    "height": 912,
+    "originalKB": 195,
+    "optimizedKB": 76
+  },
+  "giftsitems-01-55d332c5-1071-40e5-8fd8-9d4f8c3b2c4a": {
+    "source": "giftsitems\\01_55d332c5-1071-40e5-8fd8-9d4f8c3b2c4a.jpg",
+    "width": 1300,
+    "height": 1300,
+    "originalKB": 196,
+    "optimizedKB": 94
+  },
+  "giftsitems-1-e3556017-7b62-43d3-86b4-3cf3fd520404": {
+    "source": "giftsitems\\1_e3556017-7b62-43d3-86b4-3cf3fd520404.jpg",
+    "width": 800,
+    "height": 800,
+    "originalKB": 190,
+    "optimizedKB": 37
+  },
+  "giftsitems-3pc-bottle-set-1": {
+    "source": "giftsitems\\3pc_Bottle_Set_1.jpg",
+    "width": 1100,
+    "height": 1043,
+    "originalKB": 194,
+    "optimizedKB": 100
+  },
+  "giftsitems-612iai2s2sl-ac-uf894-1000-ql80": {
+    "source": "giftsitems\\612iai2s2SL__AC_UF894_1000_QL80_.jpg",
+    "width": 938,
+    "height": 1251,
+    "originalKB": 195,
+    "optimizedKB": 41
+  },
+  "giftsitems-613s9ptgdpl": {
+    "source": "giftsitems\\613S9pTgdpL.jpg",
+    "width": 1500,
+    "height": 1500,
+    "originalKB": 151,
+    "optimizedKB": 63
+  },
+  "giftsitems-61pyfjmkdol-ac-uf894-1000-ql80": {
+    "source": "giftsitems\\61PyfjMkDoL__AC_UF894_1000_QL80_.jpg",
+    "width": 1118,
+    "height": 657,
+    "originalKB": 199,
+    "optimizedKB": 40
+  },
+  "giftsitems-61av2zer9tl-ac-uf894-1000-ql80": {
+    "source": "giftsitems\\61av2Zer9tL__AC_UF894_1000_QL80_.jpg",
+    "width": 894,
+    "height": 894,
+    "originalKB": 183,
+    "optimizedKB": 45
+  },
+  "giftsitems-71qlbocj77l": {
+    "source": "giftsitems\\71QLBOCj77L.jpg",
+    "width": 1500,
+    "height": 1500,
+    "originalKB": 191,
+    "optimizedKB": 84
+  },
+  "giftsitems-71vhqqm9opl": {
+    "source": "giftsitems\\71vhqQm9OpL.jpg",
+    "width": 1500,
+    "height": 1500,
+    "originalKB": 192,
+    "optimizedKB": 66
+  },
+  "giftsitems-900ml-colour-2-1": {
+    "source": "giftsitems\\900ML_COLOUR_2_1.jpg",
+    "width": 800,
+    "height": 800,
+    "originalKB": 199,
+    "optimizedKB": 239
+  },
+  "giftsitems-900ml-stainless-steel-1": {
+    "source": "giftsitems\\900ml_Stainless_Steel_1.jpg",
+    "width": 1024,
+    "height": 1024,
+    "originalKB": 190,
+    "optimizedKB": 32
+  },
+  "giftsitems-br8jw": {
+    "source": "giftsitems\\BR8jw.jpg",
+    "width": 1024,
+    "height": 1024,
+    "originalKB": 194,
+    "optimizedKB": 104
+  },
+  "giftsitems-ceramic-mug": {
+    "source": "giftsitems\\CERAMIC_MUG.jpg",
+    "width": 1100,
+    "height": 1100,
+    "originalKB": 198,
+    "optimizedKB": 123
+  },
+  "giftsitems-coffee-grinder": {
+    "source": "giftsitems\\Coffee_Grinder.jpg",
+    "width": 1000,
+    "height": 1000,
+    "originalKB": 194,
+    "optimizedKB": 118
+  },
+  "giftsitems-davidoff-coffee": {
+    "source": "giftsitems\\Davidoff_Coffee.jpg",
+    "width": 1080,
+    "height": 1080,
+    "originalKB": 197,
+    "optimizedKB": 120
+  },
+  "giftsitems-diya-led-light-battery-operate-1678858551": {
+    "source": "giftsitems\\Diya-Led-Light-Battery-Operate-1678858551.jpg",
+    "width": 997,
+    "height": 1024,
+    "originalKB": 199,
+    "optimizedKB": 48
+  },
+  "giftsitems-electric-juicer": {
+    "source": "giftsitems\\Electric_Juicer.jpg",
+    "width": 1040,
+    "height": 992,
+    "originalKB": 177,
+    "optimizedKB": 80
+  },
+  "giftsitems-f5l66": {
+    "source": "giftsitems\\F5l66.jpg",
+    "width": 1000,
+    "height": 667,
+    "originalKB": 199,
+    "optimizedKB": 150
+  },
+  "giftsitems-gemini-generated-image-errupverrupverru": {
+    "source": "giftsitems\\Gemini_Generated_Image_errupverrupverru.jpg",
+    "width": 1280,
+    "height": 816,
+    "originalKB": 192,
+    "optimizedKB": 36
+  },
+  "giftsitems-lepv9": {
+    "source": "giftsitems\\LEpV9.jpg",
+    "width": 864,
+    "height": 1152,
+    "originalKB": 169,
+    "optimizedKB": 35
+  },
+  "giftsitems-mini-fascial-gun-massager-3-massage-heads-6-speed-rechargea": {
+    "source": "giftsitems\\Mini-Fascial-Gun-Massager-3-Massage-Heads-6-Speed-Rechargeab.jpg",
+    "width": 1250,
+    "height": 1169,
+    "originalKB": 156,
+    "optimizedKB": 21
+  },
+  "giftsitems-moonlit-beacon-lamp-kit": {
+    "source": "giftsitems\\Moonlit_Beacon_Lamp_Kit_-▌-+-+-+-+-▌-▌-é.jpg",
+    "width": 1086,
+    "height": 1448,
+    "originalKB": 164,
+    "optimizedKB": 77
+  },
+  "giftsitems-np4qc": {
+    "source": "giftsitems\\NP4Qc.jpg",
+    "width": 800,
+    "height": 739,
+    "originalKB": 192,
+    "optimizedKB": 123
+  },
+  "giftsitems-orbit-sandwich-toaster-maker-800w-1-pc": {
+    "source": "giftsitems\\Orbit-Sandwich-Toaster-Maker-800W-1-Pc-.jpg",
+    "width": 1000,
+    "height": 1000,
+    "originalKB": 200,
+    "optimizedKB": 60
+  },
+  "giftsitems-panda": {
+    "source": "giftsitems\\PANDA.jpg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 200,
+    "optimizedKB": 62
+  },
+  "giftsitems-pastel-rainbow-plush-earmuff-collection": {
+    "source": "giftsitems\\Pastel_Rainbow_Plush_Earmuff_Collection.jpg",
+    "width": 1200,
+    "height": 878,
+    "originalKB": 191,
+    "optimizedKB": 117
+  },
+  "giftsitems-plastic-tumbler-1": {
+    "source": "giftsitems\\Plastic_Tumbler_1.jpg",
+    "width": 912,
+    "height": 1091,
+    "originalKB": 160,
+    "optimizedKB": 70
+  },
+  "giftsitems-sandwich-maker": {
+    "source": "giftsitems\\Sandwich_Maker.jpg",
+    "width": 900,
+    "height": 900,
+    "originalKB": 199,
+    "optimizedKB": 124
+  },
+  "giftsitems-scented-candle": {
+    "source": "giftsitems\\Scented_Candle.jpg",
     "width": 784,
     "height": 1168,
-    "originalKB": 261,
-    "optimizedKB": 67
+    "originalKB": 163,
+    "optimizedKB": 81
+  },
+  "giftsitems-silicone-panda-lamp": {
+    "source": "giftsitems\\Silicone-Panda-Lamp.jpg",
+    "width": 1000,
+    "height": 1000,
+    "originalKB": 198,
+    "optimizedKB": 55
+  },
+  "giftsitems-stainlesssteellargecapacitytumbler": {
+    "source": "giftsitems\\StainlessSteelLargeCapacityTumbler.jpg",
+    "width": 1946,
+    "height": 1946,
+    "originalKB": 194,
+    "optimizedKB": 34
+  },
+  "giftsitems-stainlesssteellargecapacitytumbler900ml": {
+    "source": "giftsitems\\StainlessSteelLargeCapacityTumbler900ml.jpg",
+    "width": 1080,
+    "height": 1080,
+    "originalKB": 187,
+    "optimizedKB": 38
+  },
+  "giftsitems-stanley-tumblers-001": {
+    "source": "giftsitems\\Stanley-Tumblers-001.jpg",
+    "width": 1204,
+    "height": 1604,
+    "originalKB": 192,
+    "optimizedKB": 80
+  },
+  "giftsitems-stanley": {
+    "source": "giftsitems\\Stanley.jpg",
+    "width": 880,
+    "height": 1168,
+    "originalKB": 170,
+    "optimizedKB": 72
+  },
+  "giftsitems-thermosip-mug-1": {
+    "source": "giftsitems\\Thermosip_Mug_1.jpg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 196,
+    "optimizedKB": 33
+  },
+  "giftsitems-vacuum-flask-set-1": {
+    "source": "giftsitems\\Vacuum_Flask_Set_1.jpg",
+    "width": 1100,
+    "height": 1077,
+    "originalKB": 197,
+    "optimizedKB": 122
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-31-pm": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_31_PM.jpg",
+    "width": 1300,
+    "height": 866,
+    "originalKB": 196,
+    "optimizedKB": 102
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-31-pm-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_31_PM__1_.jpg",
+    "width": 900,
+    "height": 823,
+    "originalKB": 200,
+    "optimizedKB": 130
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-32-pm": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_32_PM.jpg",
+    "width": 1000,
+    "height": 1066,
+    "originalKB": 198,
+    "optimizedKB": 114
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-32-pm-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_32_PM__1_.jpg",
+    "width": 1000,
+    "height": 1000,
+    "originalKB": 198,
+    "optimizedKB": 118
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-32-pm-2": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_32_PM__2_.jpg",
+    "width": 800,
+    "height": 800,
+    "originalKB": 193,
+    "optimizedKB": 120
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-33-pm": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_33_PM.jpg",
+    "width": 1000,
+    "height": 996,
+    "originalKB": 200,
+    "optimizedKB": 116
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-33-pm-2": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_33_PM__2_.jpg",
+    "width": 1500,
+    "height": 1104,
+    "originalKB": 198,
+    "optimizedKB": 71
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-34-pm": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_34_PM.jpg",
+    "width": 1200,
+    "height": 891,
+    "originalKB": 196,
+    "optimizedKB": 112
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-34-pm-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_34_PM__1_.jpg",
+    "width": 1300,
+    "height": 1300,
+    "originalKB": 196,
+    "optimizedKB": 73
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-35-pm": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_35_PM.jpg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 163,
+    "optimizedKB": 41
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-36-pm": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_36_PM.jpg",
+    "width": 900,
+    "height": 900,
+    "originalKB": 196,
+    "optimizedKB": 120
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-36-pm-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_36_PM__1_.jpg",
+    "width": 1200,
+    "height": 1200,
+    "originalKB": 199,
+    "optimizedKB": 120
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-37-pm": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_37_PM.jpg",
+    "width": 800,
+    "height": 1067,
+    "originalKB": 196,
+    "optimizedKB": 158
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-37-pm-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_37_PM__1_.jpg",
+    "width": 800,
+    "height": 1067,
+    "originalKB": 193,
+    "optimizedKB": 129
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-38-pm-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_38_PM__1_.jpg",
+    "width": 1000,
+    "height": 1000,
+    "originalKB": 193,
+    "optimizedKB": 124
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-17-39-pm": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_17_39_PM.jpg",
+    "width": 1100,
+    "height": 733,
+    "originalKB": 196,
+    "optimizedKB": 123
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-23-06-pm": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_23_06_PM.jpg",
+    "width": 1000,
+    "height": 1000,
+    "originalKB": 192,
+    "optimizedKB": 122
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-23-06-pm-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_23_06_PM__1_.jpg",
+    "width": 900,
+    "height": 1201,
+    "originalKB": 194,
+    "optimizedKB": 125
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-23-07-pm": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_23_07_PM.jpg",
+    "width": 1300,
+    "height": 990,
+    "originalKB": 198,
+    "optimizedKB": 111
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-23-07-pm-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_23_07_PM__1_.jpg",
+    "width": 1400,
+    "height": 1058,
+    "originalKB": 199,
+    "optimizedKB": 94
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-23-07-pm-2": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_23_07_PM__2_.jpg",
+    "width": 2048,
+    "height": 1532,
+    "originalKB": 200,
+    "optimizedKB": 60
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-23-08-pm": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_23_08_PM.jpg",
+    "width": 1100,
+    "height": 1100,
+    "originalKB": 198,
+    "optimizedKB": 109
+  },
+  "giftsitems-whatsapp-image-2026-10-03-at-4-23-08-pm-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-03_at_4_23_08_PM__1_.jpg",
+    "width": 1000,
+    "height": 1000,
+    "originalKB": 193,
+    "optimizedKB": 113
+  },
+  "giftsitems-whatsapp-image-2026-10-12-at-2-55-45-pm-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-12_at_2_55_45_PM__1_.jpg",
+    "width": 1300,
+    "height": 1729,
+    "originalKB": 198,
+    "optimizedKB": 76
+  },
+  "giftsitems-whatsapp-image-2026-10-12-at-2-55-46-pm-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-12_at_2_55_46_PM__1_.jpg",
+    "width": 1500,
+    "height": 1087,
+    "originalKB": 198,
+    "optimizedKB": 77
+  },
+  "giftsitems-whatsapp-image-2026-10-12-at-2-55-47-pm-2-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-12_at_2_55_47_PM__2___1_.jpg",
+    "width": 1500,
+    "height": 1506,
+    "originalKB": 199,
+    "optimizedKB": 75
+  },
+  "giftsitems-whatsapp-image-2026-10-12-at-2-56-00-pm-removebg-preview-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-12_at_2_56_00_PM-removebg-preview__1_.jpg",
+    "width": 2048,
+    "height": 1268,
+    "originalKB": 190,
+    "optimizedKB": 33
+  },
+  "giftsitems-whatsapp-image-2026-10-12-at-2-56-00-pm-1-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-12_at_2_56_00_PM__1___1_.jpg",
+    "width": 800,
+    "height": 1000,
+    "originalKB": 197,
+    "optimizedKB": 129
+  },
+  "giftsitems-whatsapp-image-2026-10-12-at-2-56-00-pm-2-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-12_at_2_56_00_PM__2___1_.jpg",
+    "width": 1300,
+    "height": 1622,
+    "originalKB": 198,
+    "optimizedKB": 92
+  },
+  "giftsitems-whatsapp-image-2026-10-12-at-2-56-01-pm-1": {
+    "source": "giftsitems\\WhatsApp_Image_2026-10-12_at_2_56_01_PM__1_.jpg",
+    "width": 2048,
+    "height": 2060,
+    "originalKB": 199,
+    "optimizedKB": 49
+  },
+  "giftsitems-wooden-holder": {
+    "source": "giftsitems\\Wooden_Holder.jpg",
+    "width": 784,
+    "height": 1168,
+    "originalKB": 171,
+    "optimizedKB": 86
+  },
+  "giftsitems-xnh5g": {
+    "source": "giftsitems\\Xnh5g.jpg",
+    "width": 900,
+    "height": 900,
+    "originalKB": 193,
+    "optimizedKB": 119
+  },
+  "giftsitems-azexk-512": {
+    "source": "giftsitems\\azexk_512.jpg",
+    "width": 512,
+    "height": 512,
+    "originalKB": 159,
+    "optimizedKB": 33
+  },
+  "giftsitems-electric-fruit-juicer-maker-usb-rechargeable-mini-juicer-mi": {
+    "source": "giftsitems\\electric-fruit-juicer-maker-usb-rechargeable-mini-juicer-mix.jpg",
+    "width": 600,
+    "height": 578,
+    "originalKB": 176,
+    "optimizedKB": 34
+  },
+  "giftsitems-fascial-massage-gun": {
+    "source": "giftsitems\\fascial-massage-gun.jpg",
+    "width": 2000,
+    "height": 2000,
+    "originalKB": 196,
+    "optimizedKB": 23
+  },
+  "giftsitems-ijpq1": {
+    "source": "giftsitems\\ijpq1.jpg",
+    "width": 1280,
+    "height": 800,
+    "originalKB": 176,
+    "optimizedKB": 75
+  },
+  "giftsitems-il-fullxfull-6451467309-9mml": {
+    "source": "giftsitems\\il_fullxfull_6451467309_9mml.jpg",
+    "width": 1500,
+    "height": 957,
+    "originalKB": 197,
+    "optimizedKB": 62
+  },
+  "giftsitems-images": {
+    "source": "giftsitems\\images.jpg",
+    "width": 500,
+    "height": 625,
+    "originalKB": 158,
+    "optimizedKB": 33
+  },
+  "giftsitems-l3gpxqbdfqohovq6llfafzyu4z5hqow6rechxlhu-500x500": {
+    "source": "giftsitems\\l3gpxqbdfqohovq6llfafzyu4z5hqow6rechxlhu-500x500.jpg",
+    "width": 625,
+    "height": 625,
+    "originalKB": 162,
+    "optimizedKB": 28
+  },
+  "giftsitems-pencilkettle": {
+    "source": "giftsitems\\pencilkettle.jpg",
+    "width": 1500,
+    "height": 1500,
+    "originalKB": 191,
+    "optimizedKB": 40
+  },
+  "giftsitems-product-jpeg-1000x1000": {
+    "source": "giftsitems\\product-jpeg-1000x1000.jpg",
+    "width": 886,
+    "height": 1000,
+    "originalKB": 192,
+    "optimizedKB": 57
+  },
+  "toys-4-model-poppits-1-11zon": {
+    "source": "toys\\4 MODEL POPPITS_1_11zon.jpg",
+    "width": 2048,
+    "height": 2040,
+    "originalKB": 217,
+    "optimizedKB": 109
+  },
+  "toys-batminton-11zon": {
+    "source": "toys\\BATMINTON_11zon.jpg",
+    "width": 4800,
+    "height": 3584,
+    "originalKB": 239,
+    "optimizedKB": 36
+  },
+  "toys-camera-keychain-11zon": {
+    "source": "toys\\CAMERA KEYCHAIN_11zon.jpg",
+    "width": 2048,
+    "height": 2068,
+    "originalKB": 215,
+    "optimizedKB": 154
+  },
+  "toys-cat-bag-4-11zon": {
+    "source": "toys\\CAT BAG_4_11zon.jpg",
+    "width": 2640,
+    "height": 2214,
+    "originalKB": 205,
+    "optimizedKB": 89
+  },
+  "toys-chashma-5-11zon": {
+    "source": "toys\\CHASHMA_5_11zon.jpeg",
+    "width": 2048,
+    "height": 1324,
+    "originalKB": 136,
+    "optimizedKB": 73
+  },
+  "toys-football-2-6-11zon": {
+    "source": "toys\\FOOTBALL 2_6_11zon.jpg",
+    "width": 1432,
+    "height": 1210,
+    "originalKB": 126,
+    "optimizedKB": 115
+  },
+  "toys-football-3-7-11zon": {
+    "source": "toys\\FOOTBALL 3_7_11zon.jpg",
+    "width": 2048,
+    "height": 1520,
+    "originalKB": 154,
+    "optimizedKB": 87
+  },
+  "toys-football-4-8-11zon": {
+    "source": "toys\\FOOTBALL 4_8_11zon.jpg",
+    "width": 1432,
+    "height": 1766,
+    "originalKB": 88,
+    "optimizedKB": 66
+  },
+  "toys-football-5-9-11zon": {
+    "source": "toys\\FOOTBALL 5_9_11zon.jpeg",
+    "width": 2048,
+    "height": 1480,
+    "originalKB": 160,
+    "optimizedKB": 91
+  },
+  "toys-football-10-11zon": {
+    "source": "toys\\FOOTBALL_10_11zon.jpg",
+    "width": 944,
+    "height": 1088,
+    "originalKB": 57,
+    "optimizedKB": 65
+  },
+  "toys-game-2-11-11zon": {
+    "source": "toys\\GAME 2_11_11zon.jpeg",
+    "width": 2048,
+    "height": 2140,
+    "originalKB": 137,
+    "optimizedKB": 77
+  },
+  "toys-magic-book-12-11zon": {
+    "source": "toys\\MAGIC BOOK_12_11zon.jpeg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 181,
+    "optimizedKB": 88
+  },
+  "toys-paper-soap-13-11zon": {
+    "source": "toys\\PAPER SOAP_13_11zon.jpg",
+    "width": 2048,
+    "height": 1712,
+    "originalKB": 145,
+    "optimizedKB": 79
+  },
+  "toys-pony-keychain-14-11zon": {
+    "source": "toys\\PONY KEYCHAIN_14_11zon.jpg",
+    "width": 1104,
+    "height": 875,
+    "originalKB": 76,
+    "optimizedKB": 89
+  },
+  "toys-print-camera-diy-11zon-11zon": {
+    "source": "toys\\PRINT CAMERA DIY_11zon_11zon.jpg",
+    "width": 1884,
+    "height": 2671,
+    "originalKB": 187,
+    "optimizedKB": 243
+  },
+  "toys-racing-game-16-11zon": {
+    "source": "toys\\RACING GAME_16_11zon.jpeg",
+    "width": 2048,
+    "height": 1404,
+    "originalKB": 182,
+    "optimizedKB": 108
+  },
+  "toys-spinner-band-17-11zon": {
+    "source": "toys\\SPINNER BAND_17_11zon.jpg",
+    "width": 2048,
+    "height": 2060,
+    "originalKB": 234,
+    "optimizedKB": 136
+  },
+  "toys-swimming-gogs-18-11zon": {
+    "source": "toys\\SWIMMING GOGS_18_11zon.jpg",
+    "width": 1376,
+    "height": 768,
+    "originalKB": 55,
+    "optimizedKB": 53
+  },
+  "toys-video-walkie-19-11zon": {
+    "source": "toys\\VIDEO WALKIE_19_11zon.jpg",
+    "width": 1232,
+    "height": 832,
+    "originalKB": 51,
+    "optimizedKB": 54
+  },
+  "toys-whatsapp-image-2026-10-12-at-2-55-48-pm-1-11zon-11zon": {
+    "source": "toys\\WhatsApp Image 2026-10-12 at 2.55.48 PM (1)_11zon_11zon.jpeg",
+    "width": 2048,
+    "height": 2028,
+    "originalKB": 231,
+    "optimizedKB": 227
+  },
+  "toys-whatsapp-image-2026-10-12-at-2-55-50-pm-1-1-11zon-11zon": {
+    "source": "toys\\WhatsApp Image 2026-10-12 at 2.55.50 PM (1) (1)_11zon_11zon.jpeg",
+    "width": 1853,
+    "height": 3696,
+    "originalKB": 242,
+    "optimizedKB": 260
+  },
+  "toys-whatsapp-image-2026-10-12-at-2-55-50-pm-1-22-11zon": {
+    "source": "toys\\WhatsApp Image 2026-10-12 at 2.55.50 PM (1)_22_11zon.jpeg",
+    "width": 2048,
+    "height": 2048,
+    "originalKB": 169,
+    "optimizedKB": 97
   }
 }

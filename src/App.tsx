@@ -1,4 +1,4 @@
-import { FormEvent, ReactNode, useEffect, useMemo, useState } from "react";
+import { ReactNode, useEffect, useMemo, useState } from "react";
 import { categories, galleryFor, products, subcategoriesFor } from "@/products";
 import type { Product } from "@/products";
 
@@ -206,20 +206,15 @@ function ProductCard({ product, add }: { product: Product; add: (product: Produc
 
 function Home({ add }: { add: (product: Product) => void }) {
   const [faq, setFaq] = useState<number | null>(0);
-  const [sent, setSent] = useState(false);
   const faqs = [
     ["Does Bombay Toyz accept bulk orders?", "Yes. Our product experience is designed around bulk and wholesale enquiries for businesses."],
-    ["How can I request wholesale pricing?", "Add products to your enquiry basket or send your requirements through the contact form. Pricing is shared after discussing your needs."],
+    ["How can I request wholesale pricing?", "Add products to your enquiry basket or send your requirements through the enquiry basket. Pricing is shared after discussing your needs."],
     ["Can I enquire about multiple products?", "Absolutely. Add as many products as you need to one enquiry and include expected quantities for each."],
     ["What product categories are available?", "We supply toys, gifts, drinkware, home appliances and everyday essentials across roughly 70 wholesale lines."],
     ["Can I enquire through WhatsApp?", "Yes. Use any WhatsApp enquiry button to open a pre-filled message that you can review before sending."],
     ["How do I confirm product availability?", "Send an enquiry with the product SKU and quantity. Our team can then discuss current availability and order details."],
   ];
 
-  function submitContact(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    setSent(true);
-  }
 
   return (
     <main>
@@ -271,7 +266,7 @@ function Home({ add }: { add: (product: Product) => void }) {
             ["Bottles", "Everyday essentials with a splash of style.", images.bottles, "mint"],
             ["More Collections", "More discoveries for every shelf.", images.scooter, "yellow"],
           ].map(([name, copy, image, color], index) => (
-            <button className={`category-card ${color} category-${index + 1}`} key={name} onClick={() => goTo(`/products?category=${name === "More Collections" ? "More" : name}`)}>
+            <button className={`category-card ${color} category-${index + 1}`} key={name} onClick={() => goTo(name === "More Collections" ? "/products" : `/products?category=${name}`)}>
               <div>
                 <span>0{index + 1}</span>
                 <h3>{name}</h3>
@@ -285,7 +280,7 @@ function Home({ add }: { add: (product: Product) => void }) {
       </section>
 
       <section className="section featured-section">
-        <SectionTitle eyebrow="Curated for business" title="Fresh Finds. Business Favorites." copy="Browse live wholesale lines across toys, gifts, drinkware, appliances and essentials." />
+        <SectionTitle eyebrow="Curated for business" title="Fresh Finds. Business Favorites." copy="Browse live wholesale lines across toys, gifts and drinkware." />
         <div className="product-grid home-products">
           {products.slice(0, 8).map((product) => <ProductCard add={add} key={product.id} product={product} />)}
         </div>
@@ -348,7 +343,7 @@ function Home({ add }: { add: (product: Product) => void }) {
           <p>Let's find the right products for your business. Connect with Bombay Toyz for wholesale enquiries.</p>
           <div className="hero-actions">
             <Action className="yellow large" onClick={() => goTo("/#contact")}>Request a Wholesale Quote <Icon name="arrow" /></Action>
-            <Action className="outline-light large" onClick={() => window.open("https://wa.me/?text=Hello%20Bombay%20Toyz%2C%20I%27d%20like%20to%20discuss%20a%20wholesale%20order.", "_blank")}>
+            <Action className="outline-light large" onClick={() => window.open("https://wa.me/918767931996?text=Hello%20Bombay%20Toyz%2C%20I%27d%20like%20to%20discuss%20a%20wholesale%20order.", "_blank")}>
               <Icon name="whatsapp" /> Chat on WhatsApp
             </Action>
           </div>
@@ -387,28 +382,6 @@ function Home({ add }: { add: (product: Product) => void }) {
         </div>
       </section>
 
-      <section className="contact-section" id="contact">
-        <div className="contact-intro">
-          <p className="eyebrow">Start a conversation</p>
-          <h2>Let’s Grow Together.</h2>
-          <p>Looking for the right wholesale products? We’d love to hear from you.</p>
-          <div className="contact-points">
-            <span>Phone <b>+91 00000 00000</b></span>
-            <span>Email <b>hello@bombaytoyz.example</b></span>
-            <span>Location <b>Mumbai, India — placeholder</b></span>
-          </div>
-        </div>
-        <form className="contact-form" onSubmit={submitContact}>
-          <label>Full Name<input name="name" placeholder="Your full name" required /></label>
-          <label>Business Name<input name="business" placeholder="Your business name" required /></label>
-          <label>Mobile Number<input inputMode="tel" name="mobile" placeholder="+91" required /></label>
-          <label>Email Address<input name="email" placeholder="you@business.com" required type="email" /></label>
-          <label>Interested Category<select defaultValue=""><option disabled value="">Choose a category</option>{categories.map((item) => <option key={item}>{item}</option>)}</select></label>
-          <label>Estimated Order Quantity<input min="1" name="quantity" placeholder="Approximate quantity" type="number" /></label>
-          <label className="full-field">Message<textarea name="message" placeholder="Tell us about the products you’re looking for" rows={4} /></label>
-          <Action className="primary large full-field" type="submit">{sent ? "Enquiry received" : "Submit Enquiry"} <Icon name={sent ? "check" : "arrow"} /></Action>
-        </form>
-      </section>
     </main>
   );
 }
@@ -453,7 +426,7 @@ function ProductsPage({ add }: { add: (product: Product) => void }) {
   return (
     <main className="catalog-page">
       <section className="catalog-hero">
-        <div><p className="breadcrumb"><button onClick={() => goTo("/")}>Home</button> / Products</p><p className="eyebrow">The wholesale catalogue</p><h1>Explore Our<br /><span>Product Universe.</span></h1><p>Over 70 wholesale lines across toys, gifts, drinkware, appliances and essentials.</p></div>
+        <div><p className="breadcrumb"><button onClick={() => goTo("/")}>Home</button> / Products</p><p className="eyebrow">The wholesale catalogue</p><h1>Explore Our<br /><span>Product Universe.</span></h1><p>Over 70 wholesale lines across toys, gifts and drinkware.</p></div>
         <div className="catalog-orbit"><img alt="Colorful building toys" src={images.blocks} /><span className="orbit-label label-one">Toys</span><span className="orbit-label label-two">Gifts</span><span className="orbit-label label-three">Bottles</span></div>
       </section>
       <section className="catalog-shell">
@@ -497,7 +470,7 @@ function ProductDetail({ product, add }: { product: Product; add: (product: Prod
   ]
     .filter((item, index, all) => all.findIndex((x) => x.id === item.id) === index)
     .slice(0, 4);
-  const whatsapp = `https://wa.me/?text=${encodeURIComponent(`Hello Bombay Toyz, I'd like to enquire about ${product.name} (${product.sku}), variant: ${variant}, expected quantity: ${qty}.`)}`;
+  const whatsapp = `https://wa.me/918767931996?text=${encodeURIComponent(`Hello Bombay Toyz, I'd like to enquire about ${product.name} (${product.sku}), variant: ${variant}, expected quantity: ${qty}.`)}`;
   return (
     <main className="detail-page">
       <div className="detail-breadcrumb"><button onClick={() => goTo("/")}>Home</button><span>/</span><button onClick={() => goTo("/products")}>Products</button><span>/</span><button onClick={() => goTo(`/products?category=${product.category}`)}>{product.category}</button><span>/</span><b>{product.name}</b></div>
@@ -506,10 +479,10 @@ function ProductDetail({ product, add }: { product: Product; add: (product: Prod
           <div className="gallery-main">
             <img alt={product.imageAlt} src={gallery[active]} />
             <button aria-label="Zoom image" className="zoom-button" onClick={() => setLightbox(true)}><Icon name="zoom" /></button>
-            <button aria-label="Previous image" className="gallery-arrow previous" onClick={() => setActive((active + gallery.length - 1) % gallery.length)}><Icon name="left" /></button>
-            <button aria-label="Next image" className="gallery-arrow next" onClick={() => setActive((active + 1) % gallery.length)}><Icon name="right" /></button>
+            {gallery.length > 1 && <button aria-label="Previous image" className="gallery-arrow previous" onClick={() => setActive((active + gallery.length - 1) % gallery.length)}><Icon name="left" /></button>}
+            {gallery.length > 1 && <button aria-label="Next image" className="gallery-arrow next" onClick={() => setActive((active + 1) % gallery.length)}><Icon name="right" /></button>}
           </div>
-          <div className="thumbnails">{gallery.map((image, index) => <button className={active === index ? "active" : ""} key={image} onClick={() => setActive(index)}><img alt={`${product.name} view ${index + 1}`} src={image} /></button>)}</div>
+          {gallery.length > 1 && <div className="thumbnails">{gallery.map((image, index) => <button className={active === index ? "active" : ""} key={image} onClick={() => setActive(index)}><img alt={`${product.name} view ${index + 1}`} src={image} /></button>)}</div>}
         </div>
         <div className="detail-info">
           <div className="detail-label-row"><span>{product.category}</span>{product.badge && <b>{product.badge}</b>}</div>
@@ -562,7 +535,7 @@ function EnquiryDrawer({ basket, close, remove, update }: { basket: Record<strin
             <article key={product.id}><img alt={product.imageAlt} src={product.image} /><div><span>{product.category}</span><h3>{product.name}</h3><small>{product.sku}</small><label>Expected qty <input min="1" onChange={(e) => update(product.id, Math.max(1, Number(e.target.value)))} type="number" value={basket[product.id]} /></label><button onClick={() => remove(product.id)}>Remove</button></div></article>
           )) : <div className="basket-empty"><span><Icon name="bag" size={30} /></span><h3>Your basket is ready for ideas.</h3><p>Add products to start a multi-product enquiry.</p><Action className="primary" onClick={() => { close(); goTo("/products"); }}>Explore Products</Action></div>}
         </div>
-        {selected.length > 0 && <div className="enquiry-footer"><p><b>{selected.length} product{selected.length > 1 ? "s" : ""}</b> selected for enquiry</p><Action className="primary large" onClick={() => window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank")}><Icon name="whatsapp" /> Send via WhatsApp</Action><Action className="secondary" onClick={() => { close(); goTo("/#contact"); }}>Use enquiry form</Action></div>}
+        {selected.length > 0 && <div className="enquiry-footer"><p><b>{selected.length} product{selected.length > 1 ? "s" : ""}</b> selected for enquiry</p><Action className="primary large" onClick={() => window.open(`https://wa.me/918767931996?text=${encodeURIComponent(message)}`, "_blank")}><Icon name="whatsapp" /> Send via WhatsApp</Action></div>}
       </aside>
     </div>
   );
@@ -570,12 +543,12 @@ function EnquiryDrawer({ basket, close, remove, update }: { basket: Record<strin
 
 function Footer() {
   return (
-    <footer>
+    <footer id="contact">
       <div className="footer-top">
         <div className="footer-brand"><Brand /><p>Bright products, thoughtful sourcing, and easy wholesale enquiries for growing businesses.</p></div>
         <div><h3>Explore</h3><button onClick={() => goTo("/")}>Home</button><button onClick={() => goTo("/products")}>All Products</button><button onClick={() => goTo("/#about")}>About Us</button><button onClick={() => goTo("/#contact")}>Contact</button></div>
         <div><h3>Categories</h3>{categories.map((item) => <button key={item} onClick={() => goTo(`/products?category=${item}`)}>{item}</button>)}</div>
-        <div><h3>Get in touch</h3><p>+91 00000 00000</p><p>hello@bombaytoyz.example</p><p>Mumbai, India — placeholder</p><div className="socials"><button>Instagram</button><button>Facebook</button></div></div>
+        <div><h3>Get in touch</h3><p>Business Number: <a href="tel:+918767931996">8767931996</a></p><p>Email: <a href="mailto:Info@bombaytoyz.in">Info@bombaytoyz.in</a></p><div className="socials"><a href="https://www.facebook.com/Bombaytoyz/" rel="noopener noreferrer" target="_blank">Facebook</a></div></div>
       </div>
       <div className="footer-wordmark">Bombay Toyz</div>
       <div className="footer-bottom"><span>© {new Date().getFullYear()} Bombay Toyz.</span><span>Big Variety. Bigger Possibilities.</span></div>

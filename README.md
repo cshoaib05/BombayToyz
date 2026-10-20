@@ -27,7 +27,7 @@ npm run dev      # http://localhost:5173
 ```
 src/
   App.tsx           # All pages + components (home, catalogue, product detail, enquiry drawer)
-  products.ts       # The catalogue: 72 products + image registry + helpers
+  products.ts       # The catalogue: 124 products (Bottles, Gifts, Toys), one image each + image registry + helpers
   assets/products/  # Generated WebP product photos + manifest.json (do not hand-edit)
   index.css         # Design tokens (:root), component styles, responsive breakpoints
   main.tsx          # React entry point

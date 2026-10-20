@@ -12,7 +12,7 @@
  *
  * Run:  npm run images
  */
-import { mkdir, readdir, writeFile, stat } from "node:fs/promises";
+import { mkdir, readdir, rm, writeFile, stat } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -45,9 +45,16 @@ async function main() {
   }
   await mkdir(OUT_DIR, { recursive: true });
 
-  const entries = (await readdir(SRC_DIR))
-    .filter((f) => SUPPORTED.has(path.extname(f).toLowerCase()))
-    .sort();
+  // Each sub-folder of assets/images is one catalogue category; its name is
+  // used as a slug prefix so identically named files never collide.
+  const entries = [];
+  for (const dir of (await readdir(SRC_DIR, { withFileTypes: true })).filter((d) => d.isDirectory())) {
+    for (const f of (await readdir(path.join(SRC_DIR, dir.name))).sort()) {
+      if (SUPPORTED.has(path.extname(f).toLowerCase())) entries.push(path.join(dir.name, f));
+    }
+  }
+  await rm(OUT_DIR, { recursive: true, force: true });
+  await mkdir(OUT_DIR, { recursive: true });
 
   const manifest = {};
   let before = 0;
@@ -60,7 +67,7 @@ async function main() {
     before += originalBytes;
 
     // Guarantee unique output names (e.g. "Stanley.jpg" vs "Stanley.jfif").
-    let slug = slugify(file) || "image";
+    let slug = `${path.dirname(file).toLowerCase()}-${slugify(file) || "image"}`.slice(0, 70);
     if (used.has(slug)) {
       const n = used.get(slug) + 1;
       used.set(slug, n);

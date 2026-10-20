@@ -172,6 +172,7 @@ footer { background: var(--navy); color: white; padding: 80px max(5vw, calc((100
 .footer-top > div:not(:first-child) { align-items: flex-start; display: flex; flex-direction: column; gap: 11px; }
 .footer-top button { background: none; border: 0; color: #ccd0da; padding: 0; }.footer-top p { color: #ccd0da; font-size: 12px; margin: 0; }
 .socials { display: flex; gap: 15px; margin-top: 8px; }
+.footer-top a { color: #ccd0da; font-size: 12px; text-decoration: none; }.footer-top a:hover { color: var(--yellow); }
 .footer-wordmark { color: white; font-family: "Sora"; font-size: clamp(60px, 11vw, 155px); font-weight: 800; letter-spacing: -.07em; line-height: .9; margin: 80px 0 40px; opacity: .95; }
 .footer-bottom { border-top: 1px solid rgba(255,255,255,.15); color: #949baa; display: flex; font-size: 10px; justify-content: space-between; padding-top: 20px; }
 .catalog-hero { align-items: center; background: #dfe5ff; display: grid; grid-template-columns: 1fr 1fr; min-height: 540px; overflow: hidden; padding: 60px max(5vw, calc((100vw - 1312px)/2)); }
