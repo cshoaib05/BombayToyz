@@ -4,29 +4,33 @@ import type { Product } from "@/products";
 
 export type { Product };
 
-/** Look up a product's primary image by id, for the marketing sections. */
-function byId(id: string): string {
-  return products.find((product) => product.id === id)?.image ?? "";
-}
-
-/**
- * Decorative imagery for the marketing sections, drawn from the real
- * catalogue rather than hotlinked stock photography.
- */
+/** Decorative imagery for the marketing sections (stock photography, as on the live site). */
 const images = {
-  blocks: byId("pop-it-fidget-4-model"),
-  activity: byId("motion-sensing-racing-game"),
-  toys: byId("glossy-graphic-football-6pack"),
-  letters: byId("magic-practice-copybook"),
-  car: byId("kids-instant-print-camera"),
-  scooter: byId("animal-fidget-spinner-bands"),
-  bottles: byId("matte-insulated-handle-bottle"),
-  bottle: byId("gradient-sports-bottle-3pc"),
-  gift: byId("cartoon-camera-keychain"),
-  giftRed: byId("squishy-panda-night-light"),
-  giftPink: byId("pony-slot-machine-keychains"),
+  blocks: "https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?auto=format&fit=crop&w=1200&q=85",
+  activity: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=1200&q=85",
+  toys: "https://images.unsplash.com/photo-1655087751207-1020c89f7eee?auto=format&fit=crop&w=1200&q=85",
+  letters: "https://images.unsplash.com/photo-1592471557329-b81d35d1bb15?auto=format&fit=crop&w=1200&q=85",
+  car: "https://images.unsplash.com/photo-1633104317310-97e79f474285?auto=format&fit=crop&w=1200&q=85",
+  scooter: "https://images.unsplash.com/photo-1698512475144-9f2973c4cb36?auto=format&fit=crop&w=1200&q=85",
+  bottles: "https://images.unsplash.com/photo-1625708458528-802ec79b1ed8?auto=format&fit=crop&w=1200&q=85",
+  bottle: "https://images.unsplash.com/photo-1530711654140-23ef9ad45094?auto=format&fit=crop&w=1200&q=85",
+  gift: "https://images.unsplash.com/photo-1647221598398-934ed5cb0e4f?auto=format&fit=crop&w=1200&q=85",
+  giftRed: "https://images.unsplash.com/photo-1647221598276-124ebb861536?auto=format&fit=crop&w=1200&q=85",
+  giftPink: "https://images.unsplash.com/photo-1700045530508-66fb7f18ac3f?auto=format&fit=crop&w=1200&q=85",
 };
 
+
+/** Home-page picks: round-robin across categories, badged products first. */
+function featuredProducts(count = 8): Product[] {
+  const byCategory = categories.map((category) =>
+    products.filter((p) => p.category === category).sort((a, b) => Number(Boolean(b.badge)) - Number(Boolean(a.badge))),
+  );
+  const picks: Product[] = [];
+  for (let i = 0; picks.length < count && byCategory.some((list) => i < list.length); i++) {
+    for (const list of byCategory) if (list[i] && picks.length < count) picks.push(list[i]);
+  }
+  return picks;
+}
 
 function Icon({ name, size = 20 }: { name: string; size?: number }) {
   const paths: Record<string, ReactNode> = {
@@ -282,7 +286,7 @@ function Home({ add }: { add: (product: Product) => void }) {
       <section className="section featured-section">
         <SectionTitle eyebrow="Curated for business" title="Fresh Finds. Business Favorites." copy="Browse live wholesale lines across toys, gifts and drinkware." />
         <div className="product-grid home-products">
-          {products.slice(0, 8).map((product) => <ProductCard add={add} key={product.id} product={product} />)}
+          {featuredProducts().map((product) => <ProductCard add={add} key={product.id} product={product} />)}
         </div>
         <div className="center-action"><Action className="primary large" onClick={() => goTo("/products")}>View All Products <Icon name="arrow" /></Action></div>
         <p className="demo-note">Product imagery is presentation-only. Pricing, stock and specifications are confirmed on enquiry.</p>
