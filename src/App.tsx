@@ -393,7 +393,7 @@ function Home({ add }: { add: (product: Product) => void }) {
             allowFullScreen
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4250.2416447316655!2d72.8360553!3d18.9479879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf5475708a7b%3A0x9604dca01a660575!2sBombay%20Toyz!5e1!3m2!1sen!2sin!4v1793535414048!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d667.0895380743026!2d72.83598122639823!3d18.947840335048053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf5475708a7b%3A0x9604dca01a660575!2sBombay%20Toyz!5e0!3m2!1sen!2sin!4v1793536286170!5m2!1sen!2sin"
             title="Bombay Toyz location on Google Maps"
           />
         </div>
