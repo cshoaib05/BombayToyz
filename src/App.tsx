@@ -386,6 +386,18 @@ function Home({ add }: { add: (product: Product) => void }) {
         </div>
       </section>
 
+      <section className="section map-section" id="location">
+        <SectionTitle eyebrow="Visit us" title="Find Bombay Toyz." copy="Drop by our location to see the collection in person." />
+        <div className="map-frame">
+          <iframe
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="strict-origin-when-cross-origin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4250.2416447316655!2d72.8360553!3d18.9479879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf5475708a7b%3A0x9604dca01a660575!2sBombay%20Toyz!5e1!3m2!1sen!2sin!4v1793535414048!5m2!1sen!2sin"
+            title="Bombay Toyz location on Google Maps"
+          />
+        </div>
+      </section>
     </main>
   );
 }
