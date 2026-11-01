@@ -264,3 +264,5 @@ footer { background: var(--navy); color: white; padding: 80px max(5vw, calc((100
 @media (prefers-reduced-motion: reduce) {
   *, *:before, *:after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
+/* Alternate full-bleed section tint on the home page */
+.featured-section, .serve-section, .faq-section { background: #fdf0dc; box-shadow: 0 0 0 100vmax #fdf0dc; clip-path: inset(0 -100vmax); }
